@@ -1,5 +1,5 @@
 {
-  "name": "using-preact",
+  "name": "preact-nextjs-typescript-boilerplate",
   "version": "1.0.0",
   "scripts": {
     "dev": "yarn clean && next dev",
