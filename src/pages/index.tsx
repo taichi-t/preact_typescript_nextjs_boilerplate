@@ -1,9 +1,10 @@
-import Link from "next/link";
+import Link from 'next/link';
+import { FC } from 'react';
 
-const Home = () => {
+const Home: FC = () => {
   return (
     <div>
-      Hello World.{" "}
+      Hello World.{' '}
       <ul>
         <li>
           <Link href="/about">
