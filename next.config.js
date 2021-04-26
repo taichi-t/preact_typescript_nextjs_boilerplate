@@ -2,6 +2,9 @@ const withPrefresh = require("@prefresh/next");
 const preact = require("preact");
 
 module.exports = withPrefresh({
+  experimental: {
+    modern: true,
+  },
   webpack(config, options) {
     const { dev, isServer } = options;
 
