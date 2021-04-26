@@ -1,3 +1,3 @@
-# Blog v2
+# Boilerplate
 
-preact + next.js
+preact + next.js + typescript
